@@ -10,9 +10,9 @@ const Header = (props) => {
       className=" z-10 w-full fixed top-0 left-0  flex flex-row justify-between items-center  px-4 h-[8vh]
         bg-black bg-opacity-30 shadow-lg  border-opacity-1 border-black backdrop-filter backdrop-blur-[5px] ">
       <div className="text-white text-4xl">
-        <p>
+        <a href=""><p>
           <span>G</span>V
-        </p>
+        </p></a>
       </div>
       <ul className=" sm:flex flex-row hidden justify-center  w-fit text-white  text-[17px]">
        

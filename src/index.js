@@ -4,7 +4,6 @@ import Header from "./Header";
 import Intro from "./Intro";
 import About from "./About";
 import Projects from "./Projects";
-import Contactdummy from "./Contactdummy";
 import Contact from "./Contact";
 import Sidebar from "./Sidebar";
 const App = () => {
@@ -16,7 +15,6 @@ const App = () => {
       <Intro/>
       <About/>
       <Projects/>
-      {/* <Contactdummy/> */}
       <Contact/>
       <Sidebar  status={view} set={setView}  />
     </div>
